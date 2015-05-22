@@ -1,0 +1,103 @@
+dash
+revolve
+magnitude
+meteorite
+meteoroid
+infrared
+infrared ray
+summer solstice
+winter solstice
+meteorological
+crude oil
+observatory
+abyss
+aquaculture
+aquanaut
+aquatic
+aquarium
+ballast
+bathometer
+brig
+buoy
+capelin
+clipper
+cod
+coxswain
+crabwise
+craft
+crayfish
+crew
+crustacean
+eelgrass
+endangered
+estuary
+fin
+fishery
+fishmonger
+flounder
+forecastle
+frigate
+haddock
+hook
+houseboat
+hydrofoil
+inboard
+Indian Ocean
+inshore
+intertidal
+keel
+longitude
+leeward
+littoral
+longitudinal
+alongshore
+menhaden
+mercantile
+mercantile marine
+mermaid
+molt
+narwhal
+navigation
+navy
+oceanarium
+Oceania
+oceanography
+oyster bed
+pelagic
+platypus
+pod
+punt
+quay
+quintal
+raft
+red tide
+refit
+rigging
+schooner
+seaquake
+sea urchin
+sea wall
+seaweed
+seaworthy
+sextant
+shoal
+tentacle
+tide
+tide rip
+trawl
+upriver
+upstream
+upwind
+vessel
+wale knot
+waterway
+watery grave
+wharf
+xebec
+zoophyte
+zooplankton
+zoospore
+spring tide
+flood tide
+ebb tide
+fathom

@@ -1,0 +1,73 @@
+unzip
+configuration
+slot
+upgrade
+site
+browser
+operating system
+display
+keyboard
+mouse
+hard disk
+floppy disk
+drive
+directory
+file
+file compression
+folder
+cursor
+dragging
+function key
+save
+log in
+log off
+access
+password
+account
+cache memory
+the Internet
+world wide web
+hardware
+software
+the assembly line
+incompatible
+authentication
+resolution
+information retrieval
+boot
+software virus
+applet
+cookie
+domain name
+interactive
+bandwidth
+firewall
+login
+online
+offline
+server
+streaming
+protocol
+hacker
+store
+process
+retrieve
+retrieval
+encode
+modem
+feed
+binary
+bit
+byte
+command
+insert
+undo
+sophisticated
+delete
+algorithm
+artificial intelligence
+cognitive science
+cybernetics
+fuzzy logic
+heuristic
+infiltration

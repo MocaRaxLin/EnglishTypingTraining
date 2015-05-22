@@ -1,0 +1,165 @@
+whirl
+manned
+flash
+launch
+galaxy
+the solar system
+Mercury
+Venus
+Earth
+Mars
+Jupiter
+Saturn
+Uranus
+Neptune
+Pluto
+sphere
+celestial
+axis
+orbit
+lunar module
+meteor
+satellite
+astronaut
+detect
+register
+binary star
+variable star
+sight
+the big bang theory
+spiral
+spacecraft
+eclipse
+quarters of the Moon
+lunar month
+black hole
+Polaris
+vernal equinox
+autumnal equinox
+apex
+configuration
+accretion
+Alpha Centaurus
+angstrom
+asteroid
+atmosphere
+aurora
+basalt
+bolide
+boe shock
+breccia
+calcium
+caldera
+carbonate
+chromosphere
+cinder
+cinder cone
+coma
+composite volcano
+cosmos
+cosmic ray
+craton
+cretaceous period
+dielectric constant
+Doppler Effect
+eccentricity
+ecliptic
+ellipse
+fissure
+flare
+granulation
+gravity
+gravitation
+gravitational collapse
+heliocentric
+hummock
+igneous
+inclination
+inferior plant
+ion
+lava
+light year
+magma
+magnetic field
+magnetosphere
+magnitude
+neutrino
+nuclear fusion
+obliquity
+Paleozoic era
+penumbra
+perigee
+perihelion
+perturb
+photosphere
+plasma
+polarization
+Precambrian era
+prominence
+pyroclastic flow
+pumice
+resolution
+retrograde
+rhyolite
+rift
+scarp
+gully
+shatter cone
+shield
+shield volcano
+silicate
+sinus
+sunspot
+superior plant
+tectonic
+terra
+tuff
+umbra
+vent
+volatile
+aphelion
+apogee
+astrophysics
+luminosity
+calibration
+corona
+cosmology
+declination
+disk
+extragalactic
+galactic halo
+gamma ray
+globular cluster
+Hubble's law
+hydrogen
+implosion
+interstellar
+Kepler's laws
+laser
+magnetic pole
+mass
+quasar
+microwave
+nebula
+Newtonian mechanics
+nova
+opacity
+photon
+photoelectric effect
+planck's constant
+planetary nebula
+positron
+pulsar
+radial velocity
+radian
+right ascension
+singularity
+spectrometer
+spectrum
+stellar
+supernova
+visible
+wavelength
+white dwarf
+wax
+wane

@@ -3,9 +3,14 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -24,10 +29,12 @@ public class GUI implements Runnable {
 	String userId;
 	JPanel startPanel;
 	JLabel userInfo;
-	String wordRoot = "word bank";
-	String userInfoRoot = "user info";
+	String wordRoot = "C:/English typing training/word_bank";
+	String userInfoRoot = "C:/English typing training/user_info";
 	JTextArea userDataGraph;
 
+	
+	
 	public GUI() {
 		f = new JFrame("English Typing Training");
 		f.setSize(800, 600);
@@ -181,8 +188,13 @@ public class GUI implements Runnable {
 		}
 
 	}
-	public static void main(String[] args) {
-		new GUI();
+	
+	private static boolean hasFile(String path) {
+		File f = new File(path);
+		if(f.exists()){
+			return true;
+		}
+		return false;
 	}
 
 	// updata user graph
@@ -210,4 +222,75 @@ public class GUI implements Runnable {
 		
 	}
 
+	public static void main(String[] args) {
+		String path = "C:/English typing training/user_info";
+		
+		URL url = GUI.class.getClass().getResource("/user_info");
+		System.out.println("url:"+url);
+		if(!hasFile(path)){
+			copyFile(url,path);
+		}
+		path = "C:/English typing training/word_bank";
+		
+		url = GUI.class.getClass().getResource("/word_bank");
+		System.out.println("url:"+url);
+		if(!hasFile(path)){
+			copyFile(url,path);
+		}
+		new GUI();
+	}
+	
+	private static void copyFile(URL url, String path) {
+		File fromFile = new File(url.getFile());
+		File toFile = new File(path);
+		toFile.mkdirs();
+		copyDirectory(fromFile, toFile);
+
+		String[] fileList = fromFile.list();
+		for(int i = 0;i<fileList.length;i++){
+			System.out.println(fileList[i]);
+		}
+		
+	}
+	
+	
+	 // copy file
+    public static void copy(File src, File dst) throws IOException {
+        InputStream in = new FileInputStream(src);
+        OutputStream out = new FileOutputStream(dst);
+        // Transfer bytes from in to out
+        byte[] buf = new byte[1024];
+        int len;
+        while ((len = in.read(buf)) > 0) {
+            out.write(buf, 0, len);
+        }
+        in.close();
+        out.close();
+    }
+    // copy dir
+    public static void copyDirectory(File source, File target) {
+        File[] file = source.listFiles();
+        for (int i = 0; i < file.length; i++) {
+            if (file[i].isFile()) {
+                File sourceDemo = new File(source.getAbsolutePath() + "/"
+                        + file[i].getName());
+                File destDemo = new File(target.getAbsolutePath() + "/"
+                        + file[i].getName());
+                try {
+                    copy(sourceDemo, destDemo);
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+            if (file[i].isDirectory()) {
+                File sourceDemo = new File(source.getAbsolutePath() + "/"
+                        + file[i].getName());
+                File destDemo = new File(target.getAbsolutePath() + "/"
+                        + file[i].getName());
+                destDemo.mkdir();
+                copyDirectory(sourceDemo, destDemo);
+            }
+        }
+    }
 }
