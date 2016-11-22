@@ -142,6 +142,7 @@ public class TestInterface implements Runnable {
 
 		setNewRecord(userData, newScore);
 		show(userData);
+		
 	}
 
 	private void setNewRecord(int[] userData2, int newScore) {

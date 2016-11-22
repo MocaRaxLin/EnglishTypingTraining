@@ -18,6 +18,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -146,8 +147,14 @@ public class GUI implements Runnable {
 		assure.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				open(wordRoot + "/" + test.getSelectedItem() + "/"
-						+ level.getSelectedItem());
+				if (test.getSelectedItem() == null || level.getSelectedItem() == null){
+					JOptionPane.showMessageDialog(null,
+							"½Ð¿ï¾Ü³æ¦r®w",null,JOptionPane.INFORMATION_MESSAGE);
+				}else{
+					open(wordRoot + "/" + test.getSelectedItem() + "/"
+							+ level.getSelectedItem());
+				}
+				
 			}
 		});
 		selectPanel.add(assure);
@@ -267,6 +274,8 @@ public class GUI implements Runnable {
         in.close();
         out.close();
     }
+    
+    
     // copy dir
     public static void copyDirectory(File source, File target) {
         File[] file = source.listFiles();
